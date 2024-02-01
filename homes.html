@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotelica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+            <div class="col-md-3 m-0 mb-md-0">
+                <a href="/index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="/images/logo.png" alt="Hotelica Logo" width="180" height="70">
+                </a>
+            </div>
+
+            <div class="col-md-9 text-center">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <div class="col-md-6">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link activeLink" href="/index.html">Hotelica</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="/homes.html" id="featuresDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Homes</a>
+                                    <div class="dropdown-menu" aria-labelledby="featuresDropdown">
+                                        <div class="containerdrop">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h6 class="dropdown-header">Property Style</h6>
+                                                    <a class="dropdown-item" href="#">Ocean Stay</a>
+                                                    <a class="dropdown-item" href="#">City Living</a>
+                                                    <a class="dropdown-item" href="#">Snow and Snug</a>
+                                                    <a class="dropdown-item" href="#">Outback</a>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h6 class="dropdown-header">Locations</h6>
+                                                    <a class="dropdown-item" href="#">Sydney</a>
+                                                    <a class="dropdown-item" href="#">Melbourne</a>
+                                                    <a class="dropdown-item" href="#">Perth</a>
+                                                    <a class="dropdown-item" href="#">Gold Coast</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/products.html">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <button class="btn btn-outline-primary me-2" type="button">Login</button>
+                            <button class="btn btn-primary" type="button">SignUp</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+<!--Navbar above-->
+
+<section class="text-center container-fluid pt-5 pb-5 homesHero">
+    <div class="row py-lg-5 ">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Our Homes</h1>
+        </div>
+    </div>
+</section>
+
+<!--Homes List Start-->
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Sydney.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Balmain, East Sydney</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/2.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">West End, Brisbane</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="noVacancy">No Vacancy</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/3.webp" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">The Port, Melbourne</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/4.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Launceston, Tasmania</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/5.jpeg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Arlie Beach, QLD</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/6.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Byron Bay, NSW</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/7.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Canberra, ACT</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/8.webp" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Darwin, NT</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="/images/Homes/9.jpg" alt="Sydney Home">
+                    <div class="card-body">
+                        <h5 class="card-text">Adelaide, SA</h5>
+                        <p class="card-text">This is one of our homes that you can stay in. This particular home is located in Sydney and you can easily access the train.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-small btn-outline-primary">View</button>
+                            </div>
+                            <small class="vacant">Vacant</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Homes List End-->
+
+
+<!--Footer Below-->
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="navHeading">Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Home</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Homes</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Products</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="navHeading">Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Home</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Homes</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Products</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <h5 class="navHeading">Title</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Home</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Homes</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Products</a></li>
+                        <li class="nav-item-mb-2"><a class="nav-link p-0 text-body-secondary" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Sign up to see our latest homes</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="signup" class="visually-hidden">Email address</label>
+                            <input type="text" id="signup" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy;2023 Hotelica Inc, All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <img src="/images/logo.png" alt="Hotelica Logo" style="height: 70px; width: 200px;">
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

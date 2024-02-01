@@ -1,0 +1,94 @@
+.containerdrop {
+    width: 450px;
+    height: 200px;
+}
+
+.btn-outline-primary {
+    color: rgb(208, 149, 39);
+    border-color: rgb(208, 149, 39);
+}
+
+.btn-primary {
+    background-color: rgb(208, 149, 39);
+    border-color: rgb(208, 149, 39);
+}
+
+.activeLink {
+    color: rgb(208, 149, 39);
+}
+
+.navHeading {
+    color: rgb(208, 149, 39);
+}
+
+.nav-link {
+    color: black;
+}
+
+.navImage {
+    height: 100vh;
+    background-image: url(/images/GreeceHero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card1 {
+    background-image: url(/images/Sydney.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card2 {
+    background-image: url(/images/Melbourne.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url(/images/Tasmania.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.txtBackground {
+    background-color: rgba(0, 0, 0, 0.429);
+    border-radius: 5px;
+}
+
+
+a {
+    color: rgb(208, 149, 39);
+}
+
+.homesHero {
+    background-image: url(/images/homesHero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vacant {
+    color: green;
+}
+
+.noVacancy {
+    color: red;
+}
+
+.contactForm {
+    background-color: rgb(208, 149, 39);
+}
+
+.productsHero {
+    background-image: url(/images/iphonehero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product1Background {
+    background-color: rgb(247, 247, 247);
+}
+
+.product2Background {
+    background-color: rgb(0, 0, 0);
+}
