@@ -27,26 +27,26 @@
 
 .navImage {
     height: 100vh;
-    background-image: url(/images/GreeceHero.jpg);
+    background-image: url(images/GreeceHero.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 
 .card1 {
-    background-image: url(/images/Sydney.jpg);
+    background-image: url(images/Sydney.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card2 {
-    background-image: url(/images/Melbourne.jpg);
+    background-image: url(images/Melbourne.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .card3 {
-    background-image: url(/images/Tasmania.jpg);
+    background-image: url(images/Tasmania.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -62,7 +62,7 @@ a {
 }
 
 .homesHero {
-    background-image: url(/images/homesHero.jpg);
+    background-image: url(images/homesHero.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -80,7 +80,7 @@ a {
 }
 
 .productsHero {
-    background-image: url(/images/iphonehero.png);
+    background-image: url(images/iphonehero.png);
     background-repeat: no-repeat;
     background-position: center;
 }
